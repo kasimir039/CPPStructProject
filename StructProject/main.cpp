@@ -53,7 +53,7 @@ int main()
 			break;
 		case DisplayStudent:
 			if (studPtr->point == -1)
-				cout << ("Ogrenci yok lutfen ogrenci ekleyin!\n");
+				cout << ("No student please add student!\n");
 			else if (choice == DisplayStudent)
 				displayStudentInfo(studPtr);
 			break;
@@ -107,6 +107,6 @@ void displayStudentInfo(Student* studPtr)
 
 void displayProgramInfo()
 {
-	cout << "LUTFEN SECIM YAPINIZ:\n1)Ogrenci Ekle\n2)Ogrenci Goster\n3)Cikis\n";
+	cout << "Choice:\n1)Ogrenci Ekle\n2)Ogrenci Goster\n3)Cikis\n";
 }
 
